@@ -59,8 +59,10 @@ h3 {
 .video {
     width: 100%;
     min-height: 100px;
-    background-color: black;
-    color: fuchsia;
+}
+
+.youtube{
+    width: 100%;
 }
 
 .container-B {
@@ -278,6 +280,31 @@ footer li{
     
     .via{
         text-align: left;
+    }
+
+    .in-breve{
+        flex-direction: row;
+    }
+
+    .video{
+        width: 60%;
+    }
+
+    .youtube{
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .container-B{
+        width: 40%;
+    }
+
+    .in-breve ul{
+        display: block;
+    }
+
+    .in-breve li{
+        width: 100%;
     }
 
 }
