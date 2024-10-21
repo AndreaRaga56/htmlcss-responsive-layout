@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    list-style: none;
+}
+
+body{
+    background-color: #F6F5F3;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #FF9614;
+    font-family: "Nerko One", cursive;
+    text-shadow: 1px 1px gray;
+}
+
+.container{
+    max-width: 1100px;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 15px;
+
+    min-height: 300px;
+    background-color: bisque;
+}
+
+.tipologia{
+    color: #717171;
+    font-size: 13px;
+}
+
+h3{
+    color: #4E3969;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.in-breve{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 3px gray;
+}
+
+.video{
+    width: 100%;
+    min-height: 100px;
+    background-color: black;
+    color: fuchsia;
+}
+
+.container-B{
+    max-width: 1100px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px 0px;
+
+    min-height: 150px;
+    background-color: lightgoldenrodyellow;
+}
+
+h4{
+    margin-bottom: 15px;
+}
+
+
+.container-B li{
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+/* ////////////////////////////*/
+/* RESPONSIVE  */
+@media screen and (min-width: 768px) {
+
+/* - Il logo nell'header si allinea a sinistra
+- Il padding del contenuto principale della pagina
+aumenta
+- Compare il testo "(Dolce Tradizionale)"
+- La grandezza del titolo diventa più grande
+- Le informazioni della ricetta sotto il video si
+dispongono a griglia
+- I bottoni social si allargano
+- compare il banner pubblicitario
+- l'immagine nella descrizione della ricetta viene
+circondata dal testo */
+}
+
+@media screen and (min-width: 992px) {
+}
